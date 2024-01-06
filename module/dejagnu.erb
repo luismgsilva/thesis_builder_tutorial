@@ -1,0 +1,21 @@
+#%Module1.0########################################################################
+##
+## <%= name %> module file
+##
+
+set ModulesVersion      "<%= name %>"
+
+proc ModulesHelp {} {
+   global version
+
+   puts stderr "   This module loads the <%= name %>"
+   puts stderr ""
+}
+
+module-whatis         "<%= name %>"
+
+set prefix	      <%= prefix %>
+
+prepend-path PATH             $prefix/bin
+
+conflict <%= name %>

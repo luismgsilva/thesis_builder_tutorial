@@ -1,0 +1,9 @@
+{
+  "sources": {
+    "arc-gnu-toolchain": {
+      "repo": "https://github.com/foss-for-synopsys-dwc-arc-processors/arc-gnu-toolchain.git"
+    }
+  },
+  "tasks": {
+  }
+}
